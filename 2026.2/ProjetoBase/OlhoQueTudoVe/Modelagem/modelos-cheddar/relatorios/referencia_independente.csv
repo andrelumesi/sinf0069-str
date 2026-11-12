@@ -1,0 +1,12 @@
+id,name,policy,horizon,period,offered_utilization,completed_transactions,incomplete_or_unfinished_transactions,worst_result_ms,worst_alert_ms,simulated_rt01_violations,simulated_rt05_violations
+E01,A_valida_sem_alerta_FP,FP,400,25,0.42,16,0,9,,0,0
+E02,A_valida_com_alerta_FP,FP,400,25,0.46,16,0,9,1,0,0
+E03,A_invalida_admitida_FP,FP,400,25,0.26,16,0,5,,0,0
+E04,A_nao_admitida_FP,FP,400,25,0.14,16,0,2,,0,0
+E05,B_sobrecarga_com_alerta_FP,FP,400,8,1.31,35,15,124,1,31,0
+E06,A_valida_com_alerta_RM,RM,400,25,0.46,16,0,9,1,0,0
+E07,A_valida_com_alerta_DM,DM,400,25,0.46,16,0,9,1,0,0
+E08,A_valida_com_alerta_EDF,EDF,400,25,0.46,16,0,9,1,0,0
+E09,B_sobrecarga_sem_alerta_FP,FP,400,8,1.185,41,9,79,,34,0
+E10,B_recepcao_R5_buffer_FP,FP,400,8,1.31,35,15,124,1,31,0
+E11,B_alertas_R3_buffer_FP,FP,400,8,1.31,35,15,124,1,31,0

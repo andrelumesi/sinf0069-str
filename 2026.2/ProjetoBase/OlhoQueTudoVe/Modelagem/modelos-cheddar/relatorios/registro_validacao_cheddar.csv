@@ -1,0 +1,12 @@
+id,arquivo,simulacao_ms,importacao_ok,precedencias_ativas,politica_identificada,RT01_maior_ms,RT05_maior_ms,violacoes_RT01,violacoes_RT05,ocupacao_cpu_cheddar_pct,resultado,observacoes
+E01,modelos/E01_A_valida_sem_alerta_FP.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E02,modelos/E02_A_valida_com_alerta_FP.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E03,modelos/E03_A_invalida_admitida_FP.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E04,modelos/E04_A_nao_admitida_FP.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E05,modelos/E05_B_sobrecarga_com_alerta_FP.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E06,modelos/E06_A_valida_com_alerta_RM.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E07,modelos/E07_A_valida_com_alerta_DM.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E08,modelos/E08_A_valida_com_alerta_EDF.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E09,modelos/E09_B_sobrecarga_sem_alerta_FP.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E10,modelos/E10_B_recepcao_R5_buffer_FP.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,
+E11,modelos/E11_B_alertas_R3_buffer_FP.xml,400,,SIM (verificar na interface),,,,,,,PENDENTE: executar Cheddar,

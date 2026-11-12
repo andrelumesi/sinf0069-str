@@ -1,0 +1,298 @@
+<?xml version='1.0' encoding='utf-8'?>
+<cheddar>
+  <core_units>
+    <core_unit id="oqtv_core_0">
+      <object_type>CORE_OBJECT_TYPE</object_type>
+      <name>OQTV_Core</name>
+      <scheduling>
+        <scheduling_parameters>
+          <scheduler_type>EARLIEST_DEADLINE_FIRST_PROTOCOL</scheduler_type>
+          <quantum>0</quantum>
+          <preemptive_type>PREEMPTIVE</preemptive_type>
+          <capacity>0</capacity>
+          <period>0</period>
+          <priority>0</priority>
+          <start_time>0</start_time>
+        </scheduling_parameters>
+      </scheduling>
+      <speed>1.0</speed>
+    </core_unit>
+  </core_units>
+  <processors>
+    <mono_core_processor id="oqtv_cpu_0">
+      <object_type>PROCESSOR_OBJECT_TYPE</object_type>
+      <name>OQTV_CPU</name>
+      <processor_type>MONOCORE_TYPE</processor_type>
+      <migration_type>NO_MIGRATION_TYPE</migration_type>
+      <core ref="oqtv_core_0" />
+    </mono_core_processor>
+  </processors>
+  <address_spaces>
+    <address_space id="oqtv_as_0">
+      <object_type>ADDRESS_SPACE_OBJECT_TYPE</object_type>
+      <name>OQTV_AS</name>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <data_memory_size>0</data_memory_size>
+      <heap_memory_size>0</heap_memory_size>
+      <scheduling>
+        <scheduling_parameters>
+          <scheduler_type>NO_SCHEDULING_PROTOCOL</scheduler_type>
+          <quantum>0</quantum>
+          <preemptive_type>PREEMPTIVE</preemptive_type>
+          <capacity>0</capacity>
+          <period>0</period>
+          <priority>0</priority>
+          <start_time>0</start_time>
+        </scheduling_parameters>
+      </scheduling>
+    </address_space>
+  </address_spaces>
+  <tasks>
+    <periodic_task id="oqtv_t1">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t1</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>1</capacity>
+      <deadline>25</deadline>
+      <start_time>0</start_time>
+      <priority>70</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>25</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+    <periodic_task id="oqtv_t2">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t2</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>1</capacity>
+      <deadline>25</deadline>
+      <start_time>0</start_time>
+      <priority>70</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>25</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+    <periodic_task id="oqtv_t3">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t3</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>2</capacity>
+      <deadline>25</deadline>
+      <start_time>0</start_time>
+      <priority>70</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>25</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+    <periodic_task id="oqtv_t4">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t4</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>2</capacity>
+      <deadline>25</deadline>
+      <start_time>0</start_time>
+      <priority>70</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>25</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+    <periodic_task id="oqtv_t5">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t5</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>2</capacity>
+      <deadline>25</deadline>
+      <start_time>0</start_time>
+      <priority>70</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>25</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+    <periodic_task id="oqtv_t6">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t6</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>1</capacity>
+      <deadline>25</deadline>
+      <start_time>0</start_time>
+      <priority>70</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>25</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+    <periodic_task id="oqtv_t7">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t7</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>1</capacity>
+      <deadline>5</deadline>
+      <start_time>9</start_time>
+      <priority>90</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>25</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+    <periodic_task id="oqtv_t8">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t8</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>2</capacity>
+      <deadline>100</deadline>
+      <start_time>0</start_time>
+      <priority>50</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>100</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+    <periodic_task id="oqtv_t9">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t9</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>2</capacity>
+      <deadline>100</deadline>
+      <start_time>0</start_time>
+      <priority>40</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>100</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+    <periodic_task id="oqtv_t10">
+      <object_type>TASK_OBJECT_TYPE</object_type>
+      <name>t10</name>
+      <task_type>PERIODIC_TYPE</task_type>
+      <cpu_name>OQTV_CPU</cpu_name>
+      <address_space_name>OQTV_AS</address_space_name>
+      <capacity>2</capacity>
+      <deadline>100</deadline>
+      <start_time>0</start_time>
+      <priority>30</priority>
+      <blocking_time>0</blocking_time>
+      <policy>SCHED_FIFO</policy>
+      <text_memory_size>0</text_memory_size>
+      <stack_memory_size>0</stack_memory_size>
+      <criticality>0</criticality>
+      <context_switch_overhead>0</context_switch_overhead>
+      <period>100</period>
+      <jitter>0</jitter>
+      <predictable_seed>TRUE</predictable_seed>
+      <seed>0</seed>
+    </periodic_task>
+  </tasks>
+  <resources />
+  <buffers />
+  <dependencies>
+    <dependency>
+      <type_of_dependency>PRECEDENCE_DEPENDENCY</type_of_dependency>
+      <precedence_sink ref="oqtv_t2" />
+      <precedence_source ref="oqtv_t1" />
+    </dependency>
+    <dependency>
+      <type_of_dependency>PRECEDENCE_DEPENDENCY</type_of_dependency>
+      <precedence_sink ref="oqtv_t3" />
+      <precedence_source ref="oqtv_t2" />
+    </dependency>
+    <dependency>
+      <type_of_dependency>PRECEDENCE_DEPENDENCY</type_of_dependency>
+      <precedence_sink ref="oqtv_t4" />
+      <precedence_source ref="oqtv_t3" />
+    </dependency>
+    <dependency>
+      <type_of_dependency>PRECEDENCE_DEPENDENCY</type_of_dependency>
+      <precedence_sink ref="oqtv_t5" />
+      <precedence_source ref="oqtv_t4" />
+    </dependency>
+    <dependency>
+      <type_of_dependency>PRECEDENCE_DEPENDENCY</type_of_dependency>
+      <precedence_sink ref="oqtv_t6" />
+      <precedence_source ref="oqtv_t5" />
+    </dependency>
+    <dependency>
+      <type_of_dependency>PRECEDENCE_DEPENDENCY</type_of_dependency>
+      <precedence_sink ref="oqtv_t7" />
+      <precedence_source ref="oqtv_t6" />
+    </dependency>
+  </dependencies>
+</cheddar>
