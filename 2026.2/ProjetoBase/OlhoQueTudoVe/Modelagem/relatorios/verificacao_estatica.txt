@@ -1,0 +1,12 @@
+OK: E01_A_valida_sem_alerta_FP.xml: tarefas=9 precedencias=5 U=42.0%
+OK: E02_A_valida_com_alerta_FP.xml: tarefas=10 precedencias=6 U=46.0%
+OK: E03_A_invalida_admitida_FP.xml: tarefas=7 precedencias=3 U=26.0%
+OK: E04_A_nao_admitida_FP.xml: tarefas=5 precedencias=1 U=14.0%
+OK: E05_B_sobrecarga_com_alerta_FP.xml: tarefas=10 precedencias=6 U=131.0%
+OK: E06_A_valida_com_alerta_RM.xml: tarefas=10 precedencias=6 U=46.0%
+OK: E07_A_valida_com_alerta_DM.xml: tarefas=10 precedencias=6 U=46.0%
+OK: E08_A_valida_com_alerta_EDF.xml: tarefas=10 precedencias=6 U=46.0%
+OK: E09_B_sobrecarga_sem_alerta_FP.xml: tarefas=9 precedencias=5 U=118.5%
+OK: E10_B_recepcao_R5_buffer_FP.xml: tarefas=10 precedencias=6 U=131.0%
+OK: E11_B_alertas_R3_buffer_FP.xml: tarefas=10 precedencias=6 U=131.0%
+TODOS XML: sintaxe e consistencia interna verificadas. Abertura no Cheddar NAO executada.
